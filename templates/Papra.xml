@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/papra-hq/papra/issues</Support>
+  <Support>https://forums.unraid.net/topic/193533-unraid-docker-template-for-papra/</Support>
   <Project>https://github.com/papra-hq/papra</Project>
   <Overview>Papra is a lightweight document management solution (DMS) that automatically imports, stores, and organizes your files. &#xD;
 A simpler alternative to Paperless. &#xD;
