@@ -25,5 +25,6 @@ That's it, your Papra server is ready!</Overview>
   <Config Name="WebUI Port" Target="1221" Default="1221" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false">1221</Config>
   <Config Name="App Data" Target="/app/app-data" Default="/mnt/user/appdata/papra" Mode="rw" Description="Papra app data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/papra</Config>
   <Config Name="App Base URL (ip or domain of server)" Target="APP_BASE_URL" Default="http://localhost:1221" Mode="" Description="Replace with ip-adress/domain of server" Type="Variable" Display="always" Required="true" Mask="false">http://localhost:1221</Config>
+  <Config Name="Auth_Secret (32+ chars)" Target="AUTH_SECRET" Default="papra-default-auth-secret-change-me" Mode="" Description="The secret for the auth, it should be at least 32 characters long" Type="Variable" Display="always" Required="false" Mask="false">papra-default-auth-secret-change-me</Config>
   <TailscaleStateDir/>
 </Container>
